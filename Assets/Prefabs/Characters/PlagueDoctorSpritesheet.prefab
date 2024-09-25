@@ -333,12 +333,12 @@ GameObject:
   - component: {fileID: 3437803765547005659}
   - component: {fileID: 7493756254472151767}
   - component: {fileID: 1740345788399366834}
+  - component: {fileID: 1340077392921147285}
   - component: {fileID: 5751691375199203842}
   - component: {fileID: 2894366713436325606}
   - component: {fileID: 4291171418384500760}
   - component: {fileID: 6156430542340445680}
   - component: {fileID: 8331073189426104033}
-  - component: {fileID: 1340077392921147285}
   m_Layer: 0
   m_Name: PlagueDoctorSpritesheet
   m_TagString: Player
@@ -517,6 +517,20 @@ MonoBehaviour:
   positionChangeLeftX: 1
   positionChangeRightX: 1
   isJumping: 0
+--- !u!114 &1340077392921147285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7845867965207192372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16e4893b628f1d4b801efb8c49d1163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 8135911752050321251, guid: 36e151b40d5da7c49b2868f971921a45, type: 3}
+  shootPoint: {fileID: 6385656765156723954}
 --- !u!50 &5751691375199203842
 Rigidbody2D:
   serializedVersion: 4
@@ -838,18 +852,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &1340077392921147285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7845867965207192372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f16e4893b628f1d4b801efb8c49d1163, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8859601206249910942
 GameObject:
   m_ObjectHideFlags: 0

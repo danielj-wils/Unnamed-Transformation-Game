@@ -3927,8 +3927,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileObjects: []
-  projectileObject: {fileID: 0}
-  projectileNumberToPool: 0
+  projectileObject: {fileID: 8135911752050321251, guid: 36e151b40d5da7c49b2868f971921a45, type: 3}
+  projectileNumberToPool: 20
 --- !u!4 &1721752203
 Transform:
   m_ObjectHideFlags: 0

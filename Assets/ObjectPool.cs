@@ -35,7 +35,7 @@ public class ObjectPool : MonoBehaviour
         }
     }
 
-    public GameObject GetSunflowerSeedObject()
+    public GameObject GetProjectileObject()
     {
         for(int i = 0; i < projectileNumberToPool; i++)
         {
