@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-    animator.SetFloat("Speed", Mathf.Abs(moveInput.x)); 
+        animator.SetFloat("Speed", Mathf.Abs(moveInput.x)); 
     }
 
     void FixedUpdate()

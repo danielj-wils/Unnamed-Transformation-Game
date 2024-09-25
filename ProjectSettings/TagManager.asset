@@ -63,3 +63,6 @@ TagManager:
   - name: PlagueDoctor
     uniqueID: 3299819139
     locked: 0
+  - name: Projectiles
+    uniqueID: 1585591529
+    locked: 0

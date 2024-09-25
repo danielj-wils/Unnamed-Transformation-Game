@@ -338,6 +338,7 @@ GameObject:
   - component: {fileID: 4291171418384500760}
   - component: {fileID: 6156430542340445680}
   - component: {fileID: 8331073189426104033}
+  - component: {fileID: 1340077392921147285}
   m_Layer: 0
   m_Name: PlagueDoctorSpritesheet
   m_TagString: Player
@@ -354,12 +355,13 @@ Transform:
   m_GameObject: {fileID: 7845867965207192372}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.43, y: 4.05, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.535, y: 3.995, z: 0}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6848460694110979013}
   - {fileID: 738747274305634128}
+  - {fileID: 6385656765156723954}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5744037304485028543
@@ -512,6 +514,8 @@ MonoBehaviour:
   lowJumpMultiplier: 7
   fallMultiplier: 20
   velocitySmoothing: 0.2
+  positionChangeLeftX: 1
+  positionChangeRightX: 1
   isJumping: 0
 --- !u!50 &5751691375199203842
 Rigidbody2D:
@@ -834,6 +838,18 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1340077392921147285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7845867965207192372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16e4893b628f1d4b801efb8c49d1163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8859601206249910942
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,4 +881,35 @@ Transform:
   m_Children:
   - {fileID: 1856915351590287844}
   m_Father: {fileID: 7358625870327916467}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8880466575554619178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6385656765156723954}
+  m_Layer: 0
+  m_Name: ShootPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6385656765156723954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8880466575554619178}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.386, y: 0.162, z: 0}
+  m_LocalScale: {x: 1.3333334, y: 1.3333334, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1853927304964749955}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
